@@ -1,9 +1,19 @@
 body {
   background: rgb(255, 255, 255);
 }
+
+a {
+  color: blue;
+  font-size: 20px;
+}
+
 .logo {
   display: flex;
   justify-content: center;
+}
+
+.block {
+  margin: 0 90px;
 }
 
 .search-item {
@@ -13,18 +23,54 @@ body {
   text-align: center;
   align-items: center;
   background-color: rgb(231, 227, 227);
-  margin: 10px 90px;
   font-size: 20px;
+  margin-bottom: 5px;
 }
 
 .search-item p {
-  margin: 0 5px;
+  margin: 0 5px 0 0;
 }
 .search-item input {
   width: 450px;
 }
 
-a {
-  color: blue;
-  font-size: 20px;
+.home-item {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 95px;
+}
+
+.margin-right {
+  margin-right: 5px;
+}
+
+.margin-top {
+  margin-top: 5px;
+}
+
+.home-block-1 {
+  width: 100%;
+  background-color: #7ee5da;
+}
+
+.home-block-2 {
+  width: 50%;
+  background-color: #51cdc1;
+}
+
+.home-block-2 a,
+.home-block-3 a {
+  font-size: 18px;
+}
+
+.home-block-3 {
+  width: 100%;
+  background-color: #34aea2;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
 }
