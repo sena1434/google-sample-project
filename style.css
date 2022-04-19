@@ -1,0 +1,30 @@
+body {
+  background: rgb(255, 255, 255);
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.search-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(231, 227, 227);
+  margin: 10px 90px;
+  font-size: 20px;
+}
+
+.search-item p {
+  margin: 0 5px;
+}
+.search-item input {
+  width: 450px;
+}
+
+a {
+  color: blue;
+  font-size: 20px;
+}
